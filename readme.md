@@ -43,10 +43,9 @@ All notebooks are designed to run in Google Colab with a T4 GPU.
 2. Upload `train_data.json` and `test_data_subtask_1.json` to your Colab environment
 3. Run notebooks in this order:
    - `MLACI5.ipynb` (cells 1-11 for data prep, then cell 12+ for training)
-   - `ablation_study.ipynb` (requires cells 1-11 from MLACI5_new first)
+   - `ablation_study.ipynb` (requires cells 1-11 from MLACI5 first)
    - Other notebooks follow the same pattern
 
-Each notebook contains detailed instructions at the top.
 
 ## Citation
 ```bibtex
