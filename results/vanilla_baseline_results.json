@@ -1,0 +1,67 @@
+{
+  "experiment": "Vanilla DeBERTa (baseline)",
+  "best_epoch": 4,
+  "val_acc": 81.94,
+  "val_ce": 5.74,
+  "combined_score": 28.17,
+  "conditions": {
+    "Implausible_Invalid": 86.49,
+    "Implausible_Valid": 80.56,
+    "Plausible_Invalid": 85.71,
+    "Plausible_Valid": 75.0
+  },
+  "all_epochs": [
+    {
+      "epoch": 1,
+      "train_acc": 54.04,
+      "val_acc": 68.06,
+      "val_ce": 13.61,
+      "combined_score": 18.48,
+      "conditions": {
+        "Implausible_Invalid": 78.38,
+        "Implausible_Valid": 61.11,
+        "Plausible_Invalid": 80.0,
+        "Plausible_Valid": 52.78
+      }
+    },
+    {
+      "epoch": 2,
+      "train_acc": 77.45,
+      "val_acc": 78.47,
+      "val_ce": 5.95,
+      "combined_score": 26.7,
+      "conditions": {
+        "Implausible_Invalid": 75.68,
+        "Implausible_Valid": 83.33,
+        "Plausible_Invalid": 71.43,
+        "Plausible_Valid": 83.33
+      }
+    },
+    {
+      "epoch": 3,
+      "train_acc": 85.91,
+      "val_acc": 77.08,
+      "val_ce": 20.23,
+      "combined_score": 19.01,
+      "conditions": {
+        "Implausible_Invalid": 56.76,
+        "Implausible_Valid": 97.22,
+        "Plausible_Invalid": 65.71,
+        "Plausible_Valid": 88.89
+      }
+    },
+    {
+      "epoch": 4,
+      "train_acc": 90.93,
+      "val_acc": 81.94,
+      "val_ce": 5.74,
+      "combined_score": 28.17,
+      "conditions": {
+        "Implausible_Invalid": 86.49,
+        "Implausible_Valid": 80.56,
+        "Plausible_Invalid": 85.71,
+        "Plausible_Valid": 75.0
+      }
+    }
+  ]
+}

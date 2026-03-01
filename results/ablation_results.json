@@ -1,0 +1,404 @@
+{
+  "full": {
+    "experiment": "Full MLA-CI",
+    "best_epoch": 4,
+    "val_acc": 83.33,
+    "val_ce": 8.33,
+    "combined_score": 25.77,
+    "conditions": {
+      "Implausible_Invalid": 86.49,
+      "Implausible_Valid": 91.67,
+      "Plausible_Invalid": 80.0,
+      "Plausible_Valid": 75.0
+    },
+    "all_epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 66.44,
+        "val_acc": 66.67,
+        "val_ce": 30.04,
+        "combined_score": 15.03,
+        "conditions": {
+          "Implausible_Invalid": 37.84,
+          "Implausible_Valid": 94.44,
+          "Plausible_Invalid": 37.14,
+          "Plausible_Valid": 97.22
+        }
+      },
+      {
+        "epoch": 2,
+        "train_acc": 88.41,
+        "val_acc": 81.94,
+        "val_ce": 12.9,
+        "combined_score": 22.56,
+        "conditions": {
+          "Implausible_Invalid": 78.38,
+          "Implausible_Valid": 97.22,
+          "Plausible_Invalid": 71.43,
+          "Plausible_Valid": 80.56
+        }
+      },
+      {
+        "epoch": 3,
+        "train_acc": 97.67,
+        "val_acc": 82.64,
+        "val_ce": 13.96,
+        "combined_score": 22.3,
+        "conditions": {
+          "Implausible_Invalid": 94.59,
+          "Implausible_Valid": 77.78,
+          "Plausible_Invalid": 91.43,
+          "Plausible_Valid": 66.67
+        }
+      },
+      {
+        "epoch": 4,
+        "train_acc": 98.92,
+        "val_acc": 83.33,
+        "val_ce": 8.33,
+        "combined_score": 25.77,
+        "conditions": {
+          "Implausible_Invalid": 86.49,
+          "Implausible_Valid": 91.67,
+          "Plausible_Invalid": 80.0,
+          "Plausible_Valid": 75.0
+        }
+      }
+    ]
+  },
+  "no_aug": {
+    "experiment": "\u2212 Augmentation",
+    "best_epoch": 4,
+    "val_acc": 72.92,
+    "val_ce": 14.44,
+    "combined_score": 19.51,
+    "conditions": {
+      "Implausible_Invalid": 62.16,
+      "Implausible_Valid": 80.56,
+      "Plausible_Invalid": 60.0,
+      "Plausible_Valid": 88.89
+    },
+    "all_epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 55.33,
+        "val_acc": 68.75,
+        "val_ce": 15.99,
+        "combined_score": 17.94,
+        "conditions": {
+          "Implausible_Invalid": 51.35,
+          "Implausible_Valid": 83.33,
+          "Plausible_Invalid": 57.14,
+          "Plausible_Valid": 83.33
+        }
+      },
+      {
+        "epoch": 2,
+        "train_acc": 74.94,
+        "val_acc": 61.11,
+        "val_ce": 40.54,
+        "combined_score": 12.93,
+        "conditions": {
+          "Implausible_Invalid": 18.92,
+          "Implausible_Valid": 94.44,
+          "Plausible_Invalid": 31.43,
+          "Plausible_Valid": 100.0
+        }
+      },
+      {
+        "epoch": 3,
+        "train_acc": 84.21,
+        "val_acc": 71.53,
+        "val_ce": 17.42,
+        "combined_score": 18.28,
+        "conditions": {
+          "Implausible_Invalid": 54.05,
+          "Implausible_Valid": 88.89,
+          "Plausible_Invalid": 54.29,
+          "Plausible_Valid": 88.89
+        }
+      },
+      {
+        "epoch": 4,
+        "train_acc": 89.99,
+        "val_acc": 72.92,
+        "val_ce": 14.44,
+        "combined_score": 19.51,
+        "conditions": {
+          "Implausible_Invalid": 62.16,
+          "Implausible_Valid": 80.56,
+          "Plausible_Invalid": 60.0,
+          "Plausible_Valid": 88.89
+        }
+      }
+    ]
+  },
+  "no_adv": {
+    "experiment": "\u2212 Adversarial (\u03bb=0)",
+    "best_epoch": 2,
+    "val_acc": 93.06,
+    "val_ce": 4.2,
+    "combined_score": 35.12,
+    "conditions": {
+      "Implausible_Invalid": 97.3,
+      "Implausible_Valid": 94.44,
+      "Plausible_Invalid": 91.43,
+      "Plausible_Valid": 88.89
+    },
+    "all_epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 72.38,
+        "val_acc": 86.11,
+        "val_ce": 12.9,
+        "combined_score": 23.71,
+        "conditions": {
+          "Implausible_Invalid": 78.38,
+          "Implausible_Valid": 97.22,
+          "Plausible_Invalid": 71.43,
+          "Plausible_Valid": 97.22
+        }
+      },
+      {
+        "epoch": 2,
+        "train_acc": 97.08,
+        "val_acc": 93.06,
+        "val_ce": 4.2,
+        "combined_score": 35.12,
+        "conditions": {
+          "Implausible_Invalid": 97.3,
+          "Implausible_Valid": 94.44,
+          "Plausible_Invalid": 91.43,
+          "Plausible_Valid": 88.89
+        }
+      },
+      {
+        "epoch": 3,
+        "train_acc": 99.51,
+        "val_acc": 92.36,
+        "val_ce": 5.75,
+        "combined_score": 31.74,
+        "conditions": {
+          "Implausible_Invalid": 91.89,
+          "Implausible_Valid": 97.22,
+          "Plausible_Invalid": 85.71,
+          "Plausible_Valid": 94.44
+        }
+      },
+      {
+        "epoch": 4,
+        "train_acc": 99.9,
+        "val_acc": 91.67,
+        "val_ce": 4.37,
+        "combined_score": 34.21,
+        "conditions": {
+          "Implausible_Invalid": 91.89,
+          "Implausible_Valid": 94.44,
+          "Plausible_Invalid": 85.71,
+          "Plausible_Valid": 94.44
+        }
+      }
+    ]
+  },
+  "no_focal": {
+    "experiment": "\u2212 Focal Loss",
+    "best_epoch": 4,
+    "val_acc": 90.28,
+    "val_ce": 4.44,
+    "combined_score": 33.51,
+    "conditions": {
+      "Implausible_Invalid": 94.59,
+      "Implausible_Valid": 91.67,
+      "Plausible_Invalid": 85.71,
+      "Plausible_Valid": 88.89
+    },
+    "all_epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 71.07,
+        "val_acc": 74.31,
+        "val_ce": 25.71,
+        "combined_score": 17.34,
+        "conditions": {
+          "Implausible_Invalid": 48.65,
+          "Implausible_Valid": 100.0,
+          "Plausible_Invalid": 48.57,
+          "Plausible_Valid": 100.0
+        }
+      },
+      {
+        "epoch": 2,
+        "train_acc": 93.14,
+        "val_acc": 85.42,
+        "val_ce": 5.87,
+        "combined_score": 29.18,
+        "conditions": {
+          "Implausible_Invalid": 86.49,
+          "Implausible_Valid": 88.89,
+          "Plausible_Invalid": 77.14,
+          "Plausible_Valid": 88.89
+        }
+      },
+      {
+        "epoch": 3,
+        "train_acc": 98.42,
+        "val_acc": 87.5,
+        "val_ce": 10.04,
+        "combined_score": 25.72,
+        "conditions": {
+          "Implausible_Invalid": 86.49,
+          "Implausible_Valid": 97.22,
+          "Plausible_Invalid": 77.14,
+          "Plausible_Valid": 88.89
+        }
+      },
+      {
+        "epoch": 4,
+        "train_acc": 99.47,
+        "val_acc": 90.28,
+        "val_ce": 4.44,
+        "combined_score": 33.51,
+        "conditions": {
+          "Implausible_Invalid": 94.59,
+          "Implausible_Valid": 91.67,
+          "Plausible_Invalid": 85.71,
+          "Plausible_Valid": 88.89
+        }
+      }
+    ]
+  },
+  "no_oversample": {
+    "experiment": "\u2212 Oversampling",
+    "best_epoch": 4,
+    "val_acc": 86.11,
+    "val_ce": 5.56,
+    "combined_score": 29.9,
+    "conditions": {
+      "Implausible_Invalid": 86.49,
+      "Implausible_Valid": 91.67,
+      "Plausible_Invalid": 85.71,
+      "Plausible_Valid": 80.56
+    },
+    "all_epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 58.77,
+        "val_acc": 72.92,
+        "val_ce": 10.46,
+        "combined_score": 21.2,
+        "conditions": {
+          "Implausible_Invalid": 81.08,
+          "Implausible_Valid": 69.44,
+          "Plausible_Invalid": 65.71,
+          "Plausible_Valid": 75.0
+        }
+      },
+      {
+        "epoch": 2,
+        "train_acc": 79.61,
+        "val_acc": 68.75,
+        "val_ce": 22.86,
+        "combined_score": 16.48,
+        "conditions": {
+          "Implausible_Invalid": 45.95,
+          "Implausible_Valid": 91.67,
+          "Plausible_Invalid": 60.0,
+          "Plausible_Valid": 77.78
+        }
+      },
+      {
+        "epoch": 3,
+        "train_acc": 89.31,
+        "val_acc": 83.33,
+        "val_ce": 9.35,
+        "combined_score": 24.97,
+        "conditions": {
+          "Implausible_Invalid": 72.97,
+          "Implausible_Valid": 91.67,
+          "Plausible_Invalid": 82.86,
+          "Plausible_Valid": 86.11
+        }
+      },
+      {
+        "epoch": 4,
+        "train_acc": 95.83,
+        "val_acc": 86.11,
+        "val_ce": 5.56,
+        "combined_score": 29.9,
+        "conditions": {
+          "Implausible_Invalid": 86.49,
+          "Implausible_Valid": 91.67,
+          "Plausible_Invalid": 85.71,
+          "Plausible_Valid": 80.56
+        }
+      }
+    ]
+  },
+  "no_multilayer": {
+    "experiment": "\u2212 Multi-layer",
+    "best_epoch": 3,
+    "val_acc": 71.53,
+    "val_ce": 20.07,
+    "combined_score": 17.67,
+    "conditions": {
+      "Implausible_Invalid": 62.16,
+      "Implausible_Valid": 80.56,
+      "Plausible_Invalid": 82.86,
+      "Plausible_Valid": 61.11
+    },
+    "all_epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 52.32,
+        "val_acc": 57.64,
+        "val_ce": 41.67,
+        "combined_score": 12.13,
+        "conditions": {
+          "Implausible_Invalid": 91.89,
+          "Implausible_Valid": 16.67,
+          "Plausible_Invalid": 100.0,
+          "Plausible_Valid": 22.22
+        }
+      },
+      {
+        "epoch": 2,
+        "train_acc": 65.55,
+        "val_acc": 69.44,
+        "val_ce": 24.92,
+        "combined_score": 16.32,
+        "conditions": {
+          "Implausible_Invalid": 83.78,
+          "Implausible_Valid": 55.56,
+          "Plausible_Invalid": 94.29,
+          "Plausible_Valid": 44.44
+        }
+      },
+      {
+        "epoch": 3,
+        "train_acc": 73.6,
+        "val_acc": 71.53,
+        "val_ce": 20.07,
+        "combined_score": 17.67,
+        "conditions": {
+          "Implausible_Invalid": 62.16,
+          "Implausible_Valid": 80.56,
+          "Plausible_Invalid": 82.86,
+          "Plausible_Valid": 61.11
+        }
+      },
+      {
+        "epoch": 4,
+        "train_acc": 80.49,
+        "val_acc": 72.92,
+        "val_ce": 23.53,
+        "combined_score": 17.36,
+        "conditions": {
+          "Implausible_Invalid": 81.08,
+          "Implausible_Valid": 69.44,
+          "Plausible_Invalid": 94.29,
+          "Plausible_Valid": 47.22
+        }
+      }
+    ]
+  }
+}
