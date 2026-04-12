@@ -24,7 +24,6 @@ MLA-CI (Multi-Layer Adversarial for Content Invariance) is a DeBERTa-v3-base cla
   - `vanilla_baseline.ipynb` — Vanilla DeBERTa baseline
   - `multi_seed.ipynb` — Multi-seed robustness experiments
 - `results/` — JSON files with all experimental results
-- `paper/` — LaTeX source for the system paper
 
 ## Requirements
 
